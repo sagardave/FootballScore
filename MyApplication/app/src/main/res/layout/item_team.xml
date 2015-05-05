@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="beforeDescendants">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="180px"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingRight="15dp"
+        android:background="@drawable/selector_card_background"
+        android:descendantFocusability="afterDescendants"
+        android:id="@+id/item_team"
+        android:layout_gravity="right|center_vertical">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageButton"
+            android:layout_alignParentLeft="true"
+            android:paddingBottom="3dp"
+            android:src="@drawable/ic_launcher" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/teamName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="Name"
+        android:layout_gravity="right"
+        android:paddingTop="12dp"
+        android:paddingBottom="5dp"
+        android:textSize="14sp"
+        android:textColor="#ff316b76"
+        android:paddingRight="8dp" />
+
+
+    <TextView
+        android:id="@+id/teamShortName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ShortName"
+        android:layout_weight="2"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="#ffaaa090"
+        android:layout_gravity="right|center_vertical"
+        android:paddingRight="8dp"/>
+
+
+    <TextView
+        android:id="@+id/teamMarketValue"
+        android:text="Market Value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numeric="integer"
+        android:layout_weight="2"
+        android:paddingTop="10dp"
+        android:textColor="#ffaaa090"
+        android:layout_gravity="right|bottom"
+        android:paddingBottom="25dp"
+        android:paddingRight="8dp"/>
+
+
+</FrameLayout>

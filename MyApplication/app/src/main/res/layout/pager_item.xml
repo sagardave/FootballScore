@@ -1,0 +1,145 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/loadingView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/loadingText"
+        android:paddingLeft="@dimen/list_padding" />
+
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="40dp"
+        android:listSelector="#ffe3e3e3"
+        android:cacheColorHint="#80bebebe"
+        android:divider="@null"/>
+
+    <ExpandableListView
+        android:id="@+id/fixturesList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:listSelector="#ffe3e3e3"
+        android:divider="@drawable/list_divider"
+        android:groupIndicator="@null"
+        android:childDivider="#00000000"/>
+
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/table_heading"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:descendantFocusability="beforeDescendants"
+        android:background="@drawable/selector_card_background"
+        android:stretchColumns="1">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="8dp"
+            android:textColor="#ff373737"
+            android:descendantFocusability="afterDescendants">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="45dp"
+                android:id="@+id/imageTeam"
+                android:paddingBottom="22dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/tableTeamName"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dip"
+                android:layout_weight="5"
+                android:text="@string/teamName"
+                android:gravity="center"
+                android:textSize="12dp"/>
+
+            <TextView
+                android:id="@+id/position"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dip"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/Pos"
+                android:textSize="12dp"/>
+
+            <TextView
+                android:id="@+id/playedGames"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dip"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/P"
+                android:textSize="12dp"/>
+
+
+            <TextView
+                android:id="@+id/goals"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dip"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/G"
+                android:textSize="12dp"/>
+
+            <TextView
+                android:id="@+id/goalsAgainst"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dip"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/GA"
+                android:textSize="12dp"/>
+
+            <TextView
+                android:id="@+id/goalDifference"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dip"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/GD"
+                android:textSize="12dp"/>
+
+            <TextView
+                android:id="@+id/points"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dip"
+                android:gravity="right"
+                android:layout_weight="1.3"
+                android:text="@string/PTS"
+                android:textSize="12dp"/>
+
+
+        </TableRow>
+    </TableLayout>
+
+    <com.github.rahatarmanahmed.cpv.CircularProgressView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/progress_view"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:cpv_indeterminate="true"
+        app:cpv_animAutostart="true"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center" />
+
+
+</FrameLayout>
