@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/SagarkumarDave/Documents/Projects/FC-League-Scores/MyApplication/libraries/SlidingMenu/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/res/values-w600dp/values.xml -->
+    <!-- From: file:/C:/Users/Sagar/Documents/Soccer%20Score%20Android%20Application/MyApplication/libraries/SlidingMenu/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/res/values-w600dp/values.xml -->
     <eat-comment/>
     <integer name="abs__max_action_buttons">5</integer>
 </resources>
