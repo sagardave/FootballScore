@@ -171,9 +171,19 @@ public class FixturesFragment extends Fragment {
 
         lv.setAdapter(listAdapter);
 
-        for ( int i = pos-4; i < listAdapter.getGroupCount(); i++ ) {
-            lv.expandGroup(i);
+        if (pos == -1){
+            pos = listAdapter.getGroupCount();
+
+            for ( int i = pos-2; i < listAdapter.getGroupCount(); i++ ) {
+                lv.expandGroup(i);
+            }
         }
+        else{
+            for ( int i = pos; i < pos+3; i++ ) {
+                lv.expandGroup(i);
+            }
+        }
+
         if(pos==-1){
             pos = dates.size()-1;
         }
