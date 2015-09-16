@@ -170,10 +170,19 @@ public class FixturesFragment extends Fragment {
         listAdapter = new FixtureArrayAdapter(getActivity(), dates, fixturesCollections);
 
         lv.setAdapter(listAdapter);
+        if (pos == -1){
+            pos = listAdapter.getGroupCount();
 
-        for ( int i = pos-4; i < listAdapter.getGroupCount(); i++ ) {
-            lv.expandGroup(i);
+            for ( int i = pos-2; i < listAdapter.getGroupCount(); i++ ) {
+                lv.expandGroup(i);
+            }
         }
+        else{
+            for ( int i = pos; i < pos+3; i++ ) {
+                lv.expandGroup(i);
+            }
+        }
+
         if(pos==-1){
             pos = dates.size()-1;
         }
