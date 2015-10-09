@@ -1,8 +1,0 @@
-<resources>
-
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="android:Theme.Holo.Light">
-        <item name="android:actionBarDivider">@android:color/transparent</item>
-    </style>
-
-</resources>
