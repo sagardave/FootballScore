@@ -3,8 +3,8 @@ Android application to seamlessly display all upcoming fixtures and standing tab
 
 Screens:
 
-![Leagues List](FootballScore/images/Leagues.png)      ![Teams](FootballScore/images/Teams.png)
+![Leagues List](Footballscore/images/Leagues.png)      ![Teams](Footballscore/images/Teams.png)
 
-![Fixtures](FootballScore/images/Fixtures.png)         ![Table](FootballScore/images/Table.png)
+![Fixtures](Footballscore/images/Fixtures.png)         ![Table](Footballscore/images/Table.png)
 
 
