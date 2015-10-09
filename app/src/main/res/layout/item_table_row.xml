@@ -1,0 +1,95 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="35dp"
+    android:descendantFocusability="beforeDescendants"
+    android:background="@drawable/selector_card_background"
+    android:paddingBottom="2dp"
+    android:stretchColumns="1">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="3dp"
+        android:paddingTop="5dp"
+        android:textColor="#ff424242"
+        android:descendantFocusability="afterDescendants"
+        android:id="@+id/item_team">
+
+        <ImageView
+            android:layout_height="30dp"
+            android:layout_width="30dp"
+            android:id="@+id/imageTeam"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:paddingBottom="8dp"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/tableTeamName"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dip"
+            android:layout_weight="5"
+            android:text="teamName"
+            android:singleLine="true"
+            android:textSize="12dp"/>
+
+
+        <TextView
+            android:id="@+id/position"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dip"
+            android:layout_weight="1"
+            android:text="15"
+            android:textSize="12dp"/>
+
+        <TextView
+            android:id="@+id/playedGames"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dip"
+            android:layout_weight="1"
+            android:text="53"
+            android:textSize="12dp"/>
+
+        <TextView
+            android:id="@+id/goals"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dip"
+            android:layout_weight="1"
+            android:text="78"
+            android:textSize="12dp"/>
+
+        <TextView
+            android:id="@+id/goalsAgainst"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dip"
+            android:layout_weight="1"
+            android:text="56"
+            android:textSize="12dp"/>
+
+        <TextView
+            android:id="@+id/goalDifference"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dip"
+            android:layout_weight="1"
+            android:text="-34"
+            android:textSize="12dp"/>
+
+        <TextView
+            android:id="@+id/points"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dip"
+            android:layout_weight="1.3"
+            android:gravity="right"
+            android:text="89"
+            android:textSize="12dp"/>
+
+    </TableRow>
+</TableLayout>

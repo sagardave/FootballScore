@@ -1,0 +1,32 @@
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="beforeDescendants"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="2dp"
+    android:stretchColumns="1">
+
+<TableRow
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:paddingRight="15dp"
+    android:paddingLeft="15dp"
+    android:background="@drawable/selector_card_background">
+
+    <TextView
+        android:id="@+id/date_header"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_weight="1.3"
+        android:text="2015-02-25T19:45:00Z"
+        android:gravity="center_horizontal"
+        android:textSize="12dp"
+        android:textColor="#ff000000"/>
+
+</TableRow>
+</TableLayout>

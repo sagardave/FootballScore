@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\SagarkumarDave\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\SagarkumarDave\Documents\Projects\FC-League-Scores\MyApplication\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-814c5a7ffc1f1b4bea7859ad6e0c838f0c22f4f5.jar" />
+    </item>
+    <item
+        jar="C:\Users\SagarkumarDave\Documents\Projects\FC-League-Scores\MyApplication\app\libs\androidsvg-1.2.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d0cb3453e18fffeb053e9b7f052af3dcec9f75b4">
+        <dex dex="C:\Users\SagarkumarDave\Documents\Projects\FC-League-Scores\MyApplication\app\build\intermediates\pre-dexed\debug\androidsvg-1.2.1-370ec3f53d32b4984da12113c9cb9b20949efc80.jar" />
+    </item>
+    <item
+        jar="C:\Users\SagarkumarDave\Documents\Projects\FC-League-Scores\MyApplication\app\libs\glide-3.5.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ecf534dba3a8446ce84cbb797d314763be212a68">
+        <dex dex="C:\Users\SagarkumarDave\Documents\Projects\FC-League-Scores\MyApplication\app\build\intermediates\pre-dexed\debug\glide-3.5.2-027d6b1495bdcc4f4a888d1e1d36f823d2027e43.jar" />
+    </item>
+    <item
+        jar="C:\Users\SagarkumarDave\Documents\Projects\FC-League-Scores\MyApplication\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
+        <dex dex="C:\Users\SagarkumarDave\Documents\Projects\FC-League-Scores\MyApplication\app\build\intermediates\pre-dexed\debug\classes-fdcd2561f224721f3ee9d28a2782a38c08ebca66.jar" />
+    </item>
+    <item
+        jar="C:\Users\SagarkumarDave\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="C:\Users\SagarkumarDave\Documents\Projects\FC-League-Scores\MyApplication\app\build\intermediates\pre-dexed\debug\library-2.4.0-ca999cc623e73e0a85d0f018f34b062c4d150de7.jar" />
+    </item>
+    <item
+        jar="C:\Users\SagarkumarDave\Documents\Projects\FC-League-Scores\MyApplication\app\build\intermediates\exploded-aar\com.github.rahatarmanahmed\circularprogressview\2.2.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d9ccf72380027c37fc9bf760e54b7d7bd87b1c9c">
+        <dex dex="C:\Users\SagarkumarDave\Documents\Projects\FC-League-Scores\MyApplication\app\build\intermediates\pre-dexed\debug\classes-2f5b7a558b65e58ed6525fe6c226a9a238bd2219.jar" />
+    </item>
+    <item
+        jar="C:\Users\SagarkumarDave\Documents\Projects\FC-League-Scores\MyApplication\app\libs\urlimageviewhelper-1.0.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="67125d743e0035a1b157ba8210c2abf1ff374e10">
+        <dex dex="C:\Users\SagarkumarDave\Documents\Projects\FC-League-Scores\MyApplication\app\build\intermediates\pre-dexed\debug\urlimageviewhelper-1.0.4-5bd2b9d14a6991b83dc732c4dbb2dbc9e36155ba.jar" />
+    </item>
+    <item
+        jar="C:\Users\SagarkumarDave\Documents\Projects\FC-League-Scores\MyApplication\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\SagarkumarDave\Documents\Projects\FC-League-Scores\MyApplication\app\build\intermediates\pre-dexed\debug\classes-b1c6923c5f439f03a2e76d0cec955de53e480f1c.jar" />
+    </item>
+    <item
+        jar="C:\Users\SagarkumarDave\Documents\Projects\FC-League-Scores\MyApplication\app\build\intermediates\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="af64527b748983a75de9c0756e9768b56b240a49">
+        <dex dex="C:\Users\SagarkumarDave\Documents\Projects\FC-League-Scores\MyApplication\app\build\intermediates\pre-dexed\debug\classes-d6d8396b70f77fac5cba230cf5a96a1f06f100cf.jar" />
+    </item>
+    <item
+        jar="C:\Users\SagarkumarDave\Documents\Projects\FC-League-Scores\MyApplication\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\SagarkumarDave\Documents\Projects\FC-League-Scores\MyApplication\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-eadbab312019a2ebf4b01c5a4526e62a7005a856.jar" />
+    </item>
+    <item
+        jar="C:\Users\SagarkumarDave\Documents\Projects\FC-League-Scores\MyApplication\app\build\intermediates\exploded-aar\MyApplication.libraries\SlidingMenu\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="48e3aceb9d65acedd219047162f8eea4bc0b03f0">
+        <dex dex="C:\Users\SagarkumarDave\Documents\Projects\FC-League-Scores\MyApplication\app\build\intermediates\pre-dexed\debug\classes-0444ee2698c4a19a620d4a20e613cfd0a05ace81.jar" />
+    </item>
+    <item
+        jar="C:\Users\SagarkumarDave\Documents\Projects\FC-League-Scores\MyApplication\app\build\intermediates\exploded-aar\com.melnykov\floatingactionbutton\1.3.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8c6ebb7d087d1a30bf84356bd2aecf85309fc024">
+        <dex dex="C:\Users\SagarkumarDave\Documents\Projects\FC-League-Scores\MyApplication\app\build\intermediates\pre-dexed\debug\classes-172504cd0e59563d44be39278e6c41ea52cc9bff.jar" />
+    </item>
+
+</items>

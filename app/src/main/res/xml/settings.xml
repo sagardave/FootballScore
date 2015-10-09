@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/general" >
+        <Preference
+            android:title="@string/reset_database"
+            android:summary="@string/reset_database_summary"
+            android:key="@string/reset_database"/>
+        <Preference
+            android:title="@string/about"
+            android:key="@string/about"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
